@@ -8,7 +8,7 @@ exports.ci_cd_sum = (req, res) => {
     let result = 0;
     let x = Number(req.query.x);
     let y = Number(req.query.y);
-    result = x + y;
+    result = x * y;
     //This will return String
     res.status(200).send(result.toString());
 };
