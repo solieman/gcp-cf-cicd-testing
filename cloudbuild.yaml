@@ -20,7 +20,7 @@ steps:
       - functions
       - deploy
       - --runtime=nodejs8
-      - -trigger-http
+      - --trigger-http
       - --source=./  # Function source files
       - --entry-point=ci_cd_sum # Function entry point
       - ci_cd_sum # Function name
